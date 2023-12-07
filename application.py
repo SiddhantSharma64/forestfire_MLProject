@@ -39,8 +39,4 @@ def predict_datapoint():
 
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0" , port = 6000)
-
-
-# conda create -p venv python==3.12 -y
-# conda activate venv/
+    app.run(host="0.0.0.0" , port = 2000)
